@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/bg.jpg');
+     /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.loginWindow {
+    width: 360px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.loginHeader {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.loginContent label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+}
+
+.loginContent input[type="text"],
+.loginContent input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.signinButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFB6C1;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signinButton:hover {
+    background-color: #0056b3;
+}
+
+.signupLabel {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #555;
+}
+
+.signupLabel a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signupLabel a:hover {
+    text-decoration: underline;
+}
